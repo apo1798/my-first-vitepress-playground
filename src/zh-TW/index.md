@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 'My first VitePress project'
-  text: 'A VitePress Site'
-  tagline: My great project tagline
+  name: '晚上休息適合喝'
+  text: '啤酒～～'
+  tagline: 無論什麼心情都適合
   image:
     src: /logo.svg
     alt: Beer
