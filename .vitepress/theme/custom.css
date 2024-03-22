@@ -1,0 +1,19 @@
+/* https://vitepress.dev/guide/extending-default-theme */
+
+:root {
+  --vp-c-bg: #f8f8f8;
+  --vp-c-brand-1: #ead40b;
+  --vp-c-brand-2: #ffd324;
+  --vp-button-brand-bg: #ffd015;
+  --vp-button-brand-hover-bg: #ffcc00;
+  --vp-sidebar-bg-color: #fafafa;
+}
+
+.dark {
+  --vp-c-bg: #1f1b13;
+  --vp-c-brand-1: #e7d12b;
+  --vp-c-brand-2: #ffd324;
+  --vp-button-brand-bg: #caad38;
+  --vp-button-brand-hover-bg: #dfbe3b;
+  --vp-sidebar-bg-color: #1b1500;
+}
