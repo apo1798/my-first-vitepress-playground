@@ -10,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     i18nRouting: true,
-    siteTitle: 'Presented By Beer',
+    siteTitle: 'The Beer Press',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -24,7 +24,7 @@ export default defineConfig({
           },
           {
             text: 'Active When Index',
-            link: 'https://www.bebit-tech.com/OmniSegment',
+            link: '/index.html',
             activeMatch: '/$',
           },
         ],
@@ -36,8 +36,8 @@ export default defineConfig({
             text: '111',
             // You may also omit the title.
             items: [
-              { text: 'Section A Item A', link: '...' },
-              { text: 'Section B Item B', link: '...' },
+              { text: 'Section A Item A', link: '/markdown-examples.html' },
+              { text: 'Section B Item B', link: '/notes/index.html' },
             ],
           },
         ],
@@ -64,7 +64,16 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'youtube', link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      {
+        icon: 'github',
+        link: 'https://github.com/vuejs/vitepress',
+        ariaLabel: 'vitepress',
+      },
+      {
+        icon: 'github',
+        link: 'https://github.com/apo1798/my-first-vitepress-playground',
+        ariaLabel: 'Project Repo',
+      },
     ],
     footer: {
       message: 'Released under the MIT License.',

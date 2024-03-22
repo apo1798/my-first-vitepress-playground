@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: '晚上休息適合喝'
-  text: '啤酒～～'
-  tagline: 無論什麼心情都適合
+  name: 跟我一起喊
+  text: 啤酒～～
+  tagline: 但喝多了會有啤酒肚
   image:
     src: /logo.svg
     alt: Beer
