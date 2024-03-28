@@ -1,10 +1,13 @@
 import { defineConfig } from 'vitepress';
 
+const base = '/my-first-vitepress-playground/';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base, // for github pages
   title: 'VitePress Playground',
   description: 'A VitePress Site',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: `${base}favicon.ico` }]],
   srcDir: './src',
   lastUpdated: true,
   themeConfig: {
